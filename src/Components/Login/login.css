@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+}
+
+#main {
+    background-image: url(/src/wp1931709.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+div #form:first-child {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-image: none;
+    background-color: bisque;
+    width: 40%;
+    height: 45%;
+    padding-left: 40px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 10px red;
+}
+
+
+div #form:first-child label:first-child {
+    display: inline-block;
+    padding-top: 10px;
+    font-size: 20px;
+    color: coral;
+}
+
+div #form:first-child label {
+    font-size: 30px;
+}
+
+div #form:first-child input[type="text"], input[type="password"] {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    padding-left: 5px;
+    width: 80%;
+}
+
+div #form:first-child input[type="submit"] {
+    display: inline-block;
+    margin-top: 10px;
+    width: 50%;
+    height: 30px;
+    border-radius: 15px;
+    border: 1px solid red;
+}
